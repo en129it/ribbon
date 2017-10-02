@@ -13,6 +13,16 @@ import org.springframework.cloud.netflix.zuul.filters.route.apache.HttpClientRib
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ https://github.com/TechPrimers/spring-cloud-eureka-hystrix-zuul-example
+https://piotrminkowski.wordpress.com/2017/05/15/part-3-creating-microservices-circuit-breaker-fallback-and-load-balancing-with-spring-cloud/
+
+http://localhost:8079/api/server/rest/hello/server
+
+http://localhost:8079/api/client/rest/hello/client
+ *
+ */
+
 @Configuration
 public class ZuulConfiguration {
 
